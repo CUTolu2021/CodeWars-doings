@@ -244,3 +244,63 @@ function sumPairs(ints, s) {
   
   console.log(sumPairs([10, 5, 2, 3, 7, 5], 10)); // output: [3, 7]}*/
 
+//Code wars 3
+/*1.  Even or Odd
+function evenOrOdd(number) {
+  if(number%2==0)
+    return "Even"
+  return "Odd" 
+}*/
+
+
+/*2.Growth of a Population
+function nbYear(p0, percent, aug, p) {
+  let count = 0 
+  while (p0<p){
+    p0 += Math.floor((p0 * percent/100) + aug)
+    count ++
+  }
+  return count;
+}
+console.log(nbYear(1500, 5, 100, 5000));*/
+
+/*3.Sum of positive
+function positiveSum(arr) {
+  let sums = 0
+  let result = arr.filter((num) => num > 0);
+  console.log(result)
+  for(let i = 0; i<result.length;i++){
+    sums += result[i];
+  }
+console.log(sums);
+  
+}
+positiveSum([1,-4,7,12]);*/
+
+//4.Stop gninnipS My sdroW!
+/*function spinWords(string) {
+  let words = string.split(" ");
+  let result = [];
+
+  for (let i = 0; i < words.length; i++) {
+    if (words[i].length >= 5) {
+      result.push(words[i].split("").reverse().join(""));
+    } else {
+      result.push(words[i]);
+    }
+  }
+
+  return result.join(" ");
+}
+
+console.log(spinWords("Hey fellow warriors")); // Output: "Hey wollef sroirraw"
+console.log(spinWords("This is a test")); // Output: "This is a test"
+console.log(spinWords("This is another test")); // Output: "This is rehtona test"*/
+
+/*5.You're a square!
+var isSquare = function(n){
+  if (Math.sqrt(n) % 1 == 0)
+  return true; 
+  
+  return false
+}*/
